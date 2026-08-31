@@ -81,24 +81,24 @@ esults.csv\) with \utf-8-sig\ encoding for Excel compatibility.
 <div align="center">
 
 ### Main Dashboard & Navigation
-![Main Dashboard](assets/screenshots/dashboard.png)
+![Main Dashboard](Championship-Points-Registration-System/assets/screenshots/dashboard.png)
 *Central control center with quick-action navigation and branding header.*
 
 </div>
 
 | Participant Management | Team Roster Configuration |
 | :---: | :---: |
-| ![Individual Management](assets/screenshots/individuals.png) | ![Team Management](assets/screenshots/teams.png) |
+| ![Individual Management](Championship-Points-Registration-System/assets/screenshots/individuals.png) | ![Team Management](assets/screenshots/teams.png) |
 | *Individual competitor registration & record auditing* | *Team formation with strict 5-10 member enforcement* |
 
 | Event Management & Setup | Smart Registration System |
 | :---: | :---: |
-| ![Event Management](assets/screenshots/events.png) | ![Registration](assets/screenshots/registration.png) |
+| ![Event Management](Championship-Points-Registration-System/assets/screenshots/events.png) | ![Registration](assets/screenshots/registration.png) |
 | *Category classification and participant limit controls* | *Constraint validation matching participant type to event* |
 
 | Results Entry & Automated Scoring | Real-Time Rankings & Leaderboard |
 | :---: | :---: |
-| ![Results Entry](assets/screenshots/results.png) | ![Rankings Leaderboard](assets/screenshots/rankings.png) |
+| ![Results Entry](Championship-Points-Registration-System/assets/screenshots/results.png) | ![Rankings Leaderboard](assets/screenshots/rankings.png) |
 | *Rank entry with instant point allocation* | *Global individual and team championship standings* |
 
 ---

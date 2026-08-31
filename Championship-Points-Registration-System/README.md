@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # 🏆 Championship Points Registration System (CPRS)
 
@@ -19,7 +19,25 @@
 
 **Championship Points Registration System (CPRS)** is a desktop management suite engineered in Python to streamline competition administration for sports tournaments and academic events. Built with a decoupled **3-tier layered architecture**, CPRS automates the entire competition lifecycle—from participant/team registration with constraint validation, to dynamic score computation, real-time leaderboard generation, and multi-format data persistence (JSON & CSV).
 
-In addition to core tournament logic, CPRS emphasizes **inclusive design and accessibility**, providing built-in color-vision deficiency palettes (Protanopia, Deuteranopia, Tritanopia, High Contrast), font scaling, full bilingual support (English & Arabic), and auditory feedback.
+This project showcases a complete **Software Development Life Cycle (SDLC)**, evolving from an initial baseline prototype (**Version 1.0**) to an enterprise-grade accessible application (**Version 2.0**) equipped with accessibility palettes (color-blindness support), auditory feedback, internationalization (Arabic & English), and comprehensive unit testing.
+
+---
+
+## 🔄 Version Evolution (v1.0 ➔ v2.0)
+
+This repository preserves both development milestones to demonstrate iterative design and refactoring:
+
+| Capability / Feature | Version 1.0 (Baseline) | Version 2.0 (Current Release) |
+| :--- | :--- | :--- |
+| **User Interface** | Basic Tkinter layout | Modernized 4-column responsive grid & card styling |
+| **Accessibility** | Single default theme | 5 WCAG-inspired palettes (Protanopia, Deuteranopia, Tritanopia, High Contrast) |
+| **Localization (i18n)** | English only | Full bilingual support (English & Arabic) |
+| **Audio Feedback** | None | Integrated sound cues with in-app volume slider & mute control |
+| **Custom Branding** | Static headers | Dynamic custom logo loading & customizable window titles |
+| **Record Editing** | Basic delete/re-entry | In-place name updates for teams, events, and participants |
+| **Documentation** | Functional comments | Full docstrings, type annotations, and design flowcharts |
+
+> **Note:** The legacy v1.0 codebase is archived under [legacy/v1.0/](legacy/v1.0/) for historical reference.
 
 ---
 
@@ -52,7 +70,8 @@ In addition to core tournament logic, CPRS emphasizes **inclusive design and acc
 
 ### 💾 5. Data Persistence & Reporting
 - **Atomic JSON Storage:** Complete session state persistence, counter management, and automatic backups.
-- **CSV Data Export:** Export structured datasets (\individuals.csv\, \	eams.csv\, \events.csv\, \esults.csv\) with \utf-8-sig\ encoding for Excel compatibility.
+- **CSV Data Export:** Export structured datasets (\individuals.csv\, \	eams.csv\, \events.csv\, \
+esults.csv\) with \utf-8-sig\ encoding for Excel compatibility.
 - **Tournament Analytics:** Comprehensive summary dashboard reporting total participation, completed events, and unassigned competitors.
 
 ---
@@ -104,7 +123,7 @@ graph TD
 `	ext
 championship-points-registration-system/
 ├── assets/
-│   ├── diagrams/                   # System architectural diagrams
+│   ├── diagrams/                   # System architectural & flow diagrams
 │   └── screenshots/                # Application UI walkthrough screenshots
 │       ├── dashboard.png
 │       ├── individuals.png
@@ -114,7 +133,12 @@ championship-points-registration-system/
 │       ├── results.png
 │       ├── rankings.png
 │       └── settings.png
-├── src/
+├── docs/                           # Project requirements, briefs, and reports
+│   ├── BTEC_Unit04_Learning_Aim_A_Brief.pdf
+│   └── BTEC_Unit04_Learning_Aim_BC_Brief.pdf
+├── legacy/                         # Historical baseline prototypes
+│   └── v1.0/                       # Initial Version 1.0 implementation
+├── src/                            # Version 2.0 Production Source Code
 │   ├── __init__.py
 │   ├── main.py                     # Application entry point
 │   ├── models.py                   # Dataclasses, Enums, and validation logic
@@ -178,4 +202,5 @@ This project is open-source and licensed under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Developed by **Mamoun Sraiheen**
+Developed by **Mamoun Sraiheen**  
+*Passionate Software Developer & Computer Science Student*

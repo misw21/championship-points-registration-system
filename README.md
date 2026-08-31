@@ -152,7 +152,7 @@ championship-points-registration-system/
 ├── LICENSE                         # MIT License
 ├── README.md                       # Project documentation
 └── requirements.txt                # Project dependencies (Pillow)
-`
+
 
 ---
 

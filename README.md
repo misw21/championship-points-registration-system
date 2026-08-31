@@ -133,11 +133,14 @@ championship-points-registration-system/
 │       ├── results.png
 │       ├── rankings.png
 │       └── settings.png
+
 ├── docs/                           # Project requirements, briefs, and reports
 │   ├── BTEC_Unit04_Learning_Aim_A_Brief.pdf
 │   └── BTEC_Unit04_Learning_Aim_BC_Brief.pdf
+
 ├── legacy/                         # Historical baseline prototypes
 │   └── v1.0/                       # Initial Version 1.0 implementation
+
 ├── src/                            # Version 2.0 Production Source Code
 │   ├── __init__.py
 │   ├── main.py                     # Application entry point
@@ -145,6 +148,7 @@ championship-points-registration-system/
 │   ├── services.py                 # Core business services & scoring logic
 │   ├── storage.py                  # JSON persistence & CSV export layer
 │   └── gui.py                      # Tkinter graphical user interface
+
 ├── tests/
 │   ├── __init__.py
 │   └── test_tournament.py          # Comprehensive unittest suite
@@ -152,7 +156,7 @@ championship-points-registration-system/
 ├── LICENSE                         # MIT License
 ├── README.md                       # Project documentation
 └── requirements.txt                # Project dependencies (Pillow)
-
+`
 
 ---
 

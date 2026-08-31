@@ -119,12 +119,10 @@ graph TD
 ---
 
 ## 📂 Project Structure
-
-`	ext
 championship-points-registration-system/
 ├── assets/
-│   ├── diagrams/                   # System architectural & flow diagrams
-│   └── screenshots/                # Application UI walkthrough screenshots
+│   ├── diagrams/
+│   └── screenshots/
 │       ├── dashboard.png
 │       ├── individuals.png
 │       ├── teams.png
@@ -133,30 +131,30 @@ championship-points-registration-system/
 │       ├── results.png
 │       ├── rankings.png
 │       └── settings.png
-
-├── docs/                           # Project requirements, briefs, and reports
+│
+├── docs/
 │   ├── BTEC_Unit04_Learning_Aim_A_Brief.pdf
 │   └── BTEC_Unit04_Learning_Aim_BC_Brief.pdf
-
-├── legacy/                         # Historical baseline prototypes
-│   └── v1.0/                       # Initial Version 1.0 implementation
-
-├── src/                            # Version 2.0 Production Source Code
+│
+├── legacy/
+│   └── v1.0/
+│
+├── src/
 │   ├── __init__.py
-│   ├── main.py                     # Application entry point
-│   ├── models.py                   # Dataclasses, Enums, and validation logic
-│   ├── services.py                 # Core business services & scoring logic
-│   ├── storage.py                  # JSON persistence & CSV export layer
-│   └── gui.py                      # Tkinter graphical user interface
-
+│   ├── main.py
+│   ├── models.py
+│   ├── services.py
+│   ├── storage.py
+│   └── gui.py
+│
 ├── tests/
 │   ├── __init__.py
-│   └── test_tournament.py          # Comprehensive unittest suite
-├── .gitignore                      # Python & IDE exclusion rules
-├── LICENSE                         # MIT License
-├── README.md                       # Project documentation
-└── requirements.txt                # Project dependencies (Pillow)
-`
+│   └── test_tournament.py
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
 
 ---
 

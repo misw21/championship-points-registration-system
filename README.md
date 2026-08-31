@@ -119,6 +119,7 @@ graph TD
 ---
 
 ## 📂 Project Structure
+```
 championship-points-registration-system/
 ├── assets/
 │   ├── diagrams/
@@ -155,7 +156,7 @@ championship-points-registration-system/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
-
+```
 ---
 
 ## ⚙️ Requirements & Prerequisites

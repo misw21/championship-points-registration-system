@@ -120,7 +120,7 @@ graph TD
 
 ## 📂 Project Structure
 
-`	ext
+```
 championship-points-registration-system/
 ├── assets/
 │   ├── diagrams/                   # System architectural & flow diagrams
@@ -152,7 +152,7 @@ championship-points-registration-system/
 ├── LICENSE                         # MIT License
 ├── README.md                       # Project documentation
 └── requirements.txt                # Project dependencies (Pillow)
-`
+```
 
 ---
 
